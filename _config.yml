@@ -16,7 +16,7 @@ timezone: Africa/Nairobi
 
 title: Clevin # the main title
 
-tagline: My first blog and portfolio. Probably no one else will ever read it, but oh well...  # it will display as the sub-title
+tagline: Cloud Engineer | Tech Enthusiast | Nerd | 🇰🇪 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -89,14 +89,16 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: Bash-Clevin/Bash-Clevin.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOKsYPbg
+    category: Chats
+    category_id: DIC_kwDOKsYPbs4Ca5AV
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
+    lang: en # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
+    theme: dark_dimmed
+    crossorigin: anonymous
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
