@@ -41,6 +41,14 @@ Then clone it to your local machine and run:
 $ bundle
 ```
 
+## Copy folders
+After running `bundle info --path jekyll-theme-chirpy` to locate the jekyll read only files: `_data`, `_layouts`, `_includes`, `_sass`,`assets`, and `_config.yml`.
+copy the files over using:
+
+``` console 
+cp <Returned path>/. . -p -r 
+```
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
