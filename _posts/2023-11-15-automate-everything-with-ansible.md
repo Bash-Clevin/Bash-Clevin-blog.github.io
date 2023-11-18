@@ -3,9 +3,9 @@ layout: post
 title: "Automate Everything With Ansible"
 date: 2023-11-15 11:16:53 +0000
 categories: ""
-tags: ""
+tags: ansible automate linux
 image:
-  path: ""
+  path: "/assets/img/headers/automate-with-everything-with-ansible-171198.jpg"
   lqip: ""
 ---
 
@@ -27,3 +27,5 @@ for automatic builds using [docker-compose](https://gist.github.com/Bash-Clevin/
 
 ## Automate
 ## Repeat
+
+***[Photo by Digital Buggu]( https://www.pexels.com/photo/colorful-toothed-wheels-171198/)***

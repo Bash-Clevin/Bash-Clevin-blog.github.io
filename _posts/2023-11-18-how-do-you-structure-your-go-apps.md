@@ -5,9 +5,12 @@ date: 2023-11-18 16:56:03 +0000
 categories: ""
 tags: ""
 image:
-  path: ""
+  path: /assets/img/headers/structure-your-go-apps-4792285.jpg
   lqip: ""
 ---
+[photo by Anete Lusina](https://www.pexels.com/photo/person-choosing-document-in-folder-4792285)
+
+***Be like water***
 
 [Youtube ref](https://www.youtube.com/watch?v=IjnfmYuFZss)
 
