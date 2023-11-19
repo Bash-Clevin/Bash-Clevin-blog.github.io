@@ -24,7 +24,8 @@ RUN apt-get -y install git \
   libgdbm6 \
   libgdbm-dev \
   libdb-dev \
-  apt-utils
+  apt-utils \
+  webp 
 
 ## Install Nodejs
 RUN  curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash \
