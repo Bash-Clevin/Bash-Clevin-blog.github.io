@@ -22,7 +22,7 @@ Random thought: "How much time can I waste automating this..."
 # 👋 Hello
 
 I am Kevin Clinton(Bash Clevin), A cloud engineer, a tinker and computer security enthusiast. I am passionate about new tech, computer security and cloud computing.
-I strive to learn new technologies and methodoogies to improve my skills. I love collaboration, working with dynamic teams, continous innovation which inturn leads to continous growth.
+I strive to learn new technologies and methodologies to improve my skills. I love collaboration, working with dynamic teams, continous innovation which inturn leads to continous growth.
 
 <!-- I am proficient in the following technologies: -->
 

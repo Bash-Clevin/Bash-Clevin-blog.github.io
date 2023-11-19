@@ -49,6 +49,13 @@ copy the files over using:
 cp <Returned path>/. . -p -r 
 ```
 
+## Building locally
+Start the environment on Dev container for VScode
+
+Run `bundle install` to install the jekyll dependancies
+
+To see the website locally run: `bundle exec jekyll serve`
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
