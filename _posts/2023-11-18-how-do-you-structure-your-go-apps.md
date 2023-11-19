@@ -5,14 +5,18 @@ date: 2023-11-18 16:56:03 +0000
 categories: programming
 tags: GO programming layout
 image:
-  path: /assets/img/headers/structure-your-go-apps-4792285.jpg
+  path: /assets/img/headers/structure-your-go-apps-4792285.webp
   lqip: 
 ---
 [photo by Anete Lusina](https://www.pexels.com/photo/person-choosing-document-in-folder-4792285)
 
 ***Be like water***
 
-[Youtube ref](https://www.youtube.com/watch?v=IjnfmYuFZss)
+{% include embed/youtube.html id='IjnfmYuFZss' %}
+
+📺 [Youtube ref](https://www.youtube.com/watch?v=IjnfmYuFZss)
+
+## Links
 
 [Github ref](https://github.com/katzien/go-structure-examples/tree/master)
 
