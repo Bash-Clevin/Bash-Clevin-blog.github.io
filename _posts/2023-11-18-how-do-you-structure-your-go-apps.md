@@ -2,11 +2,11 @@
 layout: post
 title: "How Do You Structure Your Go Apps?"
 date: 2023-11-18 16:56:03 +0000
-categories: ""
-tags: ""
+categories: programming
+tags: GO programming layout
 image:
   path: /assets/img/headers/structure-your-go-apps-4792285.jpg
-  lqip: ""
+  lqip: 
 ---
 [photo by Anete Lusina](https://www.pexels.com/photo/person-choosing-document-in-folder-4792285)
 

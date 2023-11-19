@@ -6,7 +6,7 @@ categories: automation
 tags: ansible automate linux
 image:
   path: "/assets/img/headers/automate-with-everything-with-ansible-171198.jpg"
-  lqip: ""
+  lqip:
 ---
 
 ***[Photo by Digital Buggu]( https://www.pexels.com/photo/colorful-toothed-wheels-171198/)***
