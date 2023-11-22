@@ -14,7 +14,22 @@ image:
 ***whatever you are be a good one ~ Abraham Lincoln***
 
 ### About Docker
-Docker is an open platform to build, ship and run distributed applications
+Docker is an open platform to build, ship and run distributed applications.
+Docker is not a VM
+
+**Useful Terminology**
+
+Image
+ - Your staring point
+ - what you produce as an output
+
+Container
+- A running image
+
+Host
+ - The machine Docker is installed on
+
+**Why Docker?**
 - Escape dependency hell
 - Onboard developers and contributors rapidly
 - Implement reliable CI easily
@@ -161,6 +176,7 @@ docker inspect --format '{{ .State.Running }}' <ContainerName>
 ```
 {% endraw %}
 
+## Local development workflow with Docker
 
 {% include embed/youtube.html id='ZVaRK10HBjo' %}
 
