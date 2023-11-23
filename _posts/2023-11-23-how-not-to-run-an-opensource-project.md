@@ -3,7 +3,7 @@ layout: post
 title: "How Not To Run An Opensource Project"
 date: 2023-11-23 08:19:57 +0000
 categories: programming
-tags: opensource go
+tags: opensource GO
 image:
   path: /assets/img/headers/how-to-not-run-an-opensource.webp
   lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAcACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APmf4/f8Fd/j18EFvvgpq0nwe0uz8Fabf/DrxPrkvgfX9V8d+Mdc0YXnhrUNSuNV8PQ6NYWza1FH/a2q3Gqah4pF5qhlt7aLTbCdvL89YmtG1OMIJr3W3y3sr3bceXmb7XVlfe5CrOpGcFBuS0h1inzPXWatbZJLz1PkfQv+Cz+raTomj6VczeItaudM0rT9PuNYv7KBr7Vp7O0htpdSvG3/ADXd9JG11cN3mlc1C57K/Le2u4/aYhaOFNtaN8z1fXof/9k=
@@ -20,7 +20,7 @@ By walter Schulze - writer of [gogo protobuf](https://github.com/gogo/protobuf)
 
 [Discussions on the project](https://groups.google.com/g/kubernetes-sig-api-machinery/c/tcwFubV9Boo/m/MAdQfLY_AgAJ?pli=1)
 
-## 40 Strategies for failing at opensource
+## Strategies for failing at opensource
 - Don't opensource
 - Solve a problem that does not exist
 - Soft fork: 
