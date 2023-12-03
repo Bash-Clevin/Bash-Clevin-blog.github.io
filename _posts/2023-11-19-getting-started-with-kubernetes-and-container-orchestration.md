@@ -79,6 +79,33 @@ microservice growth from monolith lead to kubernetes to manage increased usage o
       - key value store of cluster state info
       - actual app data is not stored here
 
+## How to manage K8s components
+
+### How to create k8s components
+ - using kubernetes cli: `kubectl`
+    - imperative way
+    - Limitation multiple commands and parameters
+    - use cases:
+        - testing
+        - quick one-off tasks
+        - when getting started 
+ - kubernetes config files: `kubernetes manifests`
+    - declarative way
+    - multiple components can be configured in 1 file and updated with single command `kubectl apply -f <name_of_config.yml>`
+    - updates and deletion are supported
+    - benefits:
+        - more transparent
+        - history configurations
+        - collaboration and review process made possible
+        - enables iaas in git 
+
+### Kubernetes config file
+  - 3 parts of k8s config
+    - metadata
+    - specification
+    - status - automatically genrated by kubernetes and helps in state management (comes from etcd)
+> Yaml validator can help in parsing large configs [yamtools](https://onlineyamltools.com/edit-yaml). Refer [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) for yaml syntax 
+{: .prompt-info }
 
 
 
