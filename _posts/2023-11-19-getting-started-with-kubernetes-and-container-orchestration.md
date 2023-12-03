@@ -44,8 +44,40 @@ microservice growth from monolith lead to kubernetes to manage increased usage o
       - Forwards requests to service
       - it may provide loadbalancing, ssl termination and name-based virtual hosting
 - **Deployment**
-  - blueprint fo pods and acts as an abstraction layer
+  - blueprint for pods and acts as an abstraction layer
   - We mostly create deployments
+  - does not have state and cannot manage db, stateful apps are managed by `Statefulsets`
+> DB are often hosted outside kubernetes cluster 
+{: .prompt-info }
+- **Daemonsets**
+  - automatically calculates howmany replicas are needed based on existing nodes
+  - automatically scales up and down
+  - deploys one replica per node
+
+## Kubernetes Architecture
+
+ - Worker Machine/Nodes
+    - do the actual work
+    - each node has multiple pods
+    - has 3 processes that must be running on each node
+      - container runtime i.e `docker`, `containerd` and `cri-o`
+      - kubelet service starts a pod with a container inside
+      - kube proxy forwards requests
+
+ - Master Processes  
+    - api server 
+      - acts as a cluster gateway that gets initial requests
+      - authenticates requests
+    - scheduler
+      - basically assigns pods to nodes
+      - looks at resources and decides where to put the new pod on a node
+      - *kubelet is responsible for starting the pod not the scheduler*
+    - controller manager
+      - daemon that detects cluster change i.e. pod crashing and tries to recover cluster state
+      - it sends request to scheduler to reschedule the pods
+    - etcd
+      - key value store of cluster state info
+      - actual app data is not stored here
 
 
 
