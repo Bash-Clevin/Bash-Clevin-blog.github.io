@@ -108,7 +108,21 @@ microservice growth from monolith lead to kubernetes to manage increased usage o
 {: .prompt-info }
 
 
+## Creating cluster on AWS
 
+- create a vpc
+- launch 3 ec2 instances min 2gb ram 2cp2
+    - t2 medium - master
+    - t2 large - worker nodes
+
+### WHAT TO INSTALL
+On control plane and Worker nodes:
+  - container runtime
+  - kubelet
+  
+On control plane alone:
+  - 
+  
 
 
 
