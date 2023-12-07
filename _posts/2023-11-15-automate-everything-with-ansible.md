@@ -27,5 +27,73 @@ ansible --version #check ansible version
 
 for automatic builds using [docker-compose](https://gist.github.com/Bash-Clevin/a82645d5bcf82e70ccd7b121ef4b49a6) 
 
+
+ansible automate copy public key to remote machines
+```bash
+for user in ansible root
+ do
+   for os in ubuntu centos
+   do
+     for instance in 1 2 3
+     do
+       sshpass -f password.txt ssh-copy-id -o StrictHostKeyChecking=no ${user}@${os}${instance}
+    done
+  done
+done
+```
+
+try to ping the hosts:
+
+`ansible -i,ubuntu1,ubuntu2,ubuntu3,centos1,centos2,centos3 all -m ping`
+
+
+## Ansible configuration
+To check ansible config file run `ansible --version` on the output check `config file`
+
+Ansible config files based on priority
+ 1. `ANSIBLE_CONFIG` - environmental variable with a filename target example `export ANSIBLE_CONFIG=/home/ansible/myconfig.cfg`
+ 2. `./ansible.cfg`  - based on current directory
+ 3. `~/.ansible.cfg`  - hidden file in user home directory
+ 4. `/etc/ansible/ansible.cfg`  - provided through package or system installation of ansible
+
+## Ansible inventories
+Inventory is a file that defines the target hosts on which Ansible should run tasks on.
+
+Inventory file cotains Ip addresses or hosnames, hostgroups variables and other config details.
+
+Inventory files are typically written in INI format but YAML and JSON format are also supported.
+
+Key point about inventories: 
+
+- Host and groups: An inventory file typically consists of a list of hosts and their corresponding IP addresses or hostnames. Hosts can be grouped together to simplify the management of configurations. For example, you might have groups like "web_servers," "database_servers," and so on.
+  ```
+  [web_servers]
+  web1 ansible_host=192.168.101
+  web2 ansible_host=192.168.102
+
+  [database_servers]
+  db1 ansible_host=192.168.1.201
+  ```
+- Variables: can be used to castomize behavior of Ansible tasks for specific hosts or groups
+
+  ```
+  [web_servers]
+  web1 ansible_host=192.168.1.101 ansible_user=myuser ansible_port=22
+
+  [database_servers]
+  db1 ansible_host=192.168.1.201 ansible_user=dbuser ansible_port=22
+
+  ```
+- Dynamic inventories: can be scripts or programs that generate inventory info dynamically based on external sources i.e cloud providers or db e.t.c
+
+
+The default inventory file location is `/etc/ansible/hosts`, but you can specify a different file using `-i` option with the ansiblecommand.
+
+Example:
+```bash
+ ansible -i inventory.ini web_servers -m ping
+```
+
+
 ## Automate
 ## Repeat
