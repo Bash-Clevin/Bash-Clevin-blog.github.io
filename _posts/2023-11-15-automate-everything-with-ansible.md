@@ -94,6 +94,18 @@ Example:
  ansible -i inventory.ini web_servers -m ping
 ```
 
+## Ansible Modules
+
+These are small units of code that Ansible uses to perform tasks on managed hosts i.e installing software, copying files and managing services
+
+[Ansible modules](https://docs.ansible.com/ansible/2.8/user_guide/modules.html) are `indempondent` i.e they can be run multiple times without changing the result of the initial execution
+
+Standard Modules include:
+ - **ping** - checks if host is reachable
+ - **yum** or **apt** - installs or removes pckages in linux
+ - **copy** - copies files to remote hosts
+ - **file** - manages files and directories
+ - **service** - manages services on target hosts
 
 ## Automate
 ## Repeat
