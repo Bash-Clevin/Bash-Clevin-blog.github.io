@@ -2,7 +2,7 @@
 layout: post
 title: "Deploying Ethereum Full Node on Holesky Test Net"
 date: 2024-06-03 06:54:52 +0000
-categories: blochchain
+categories: blockchain
 tags: crypto docker eth
 image:
   path: /assets/img/headers/full-node-on-holesky.webp
@@ -190,9 +190,9 @@ docker compose up
 
 ### Testing the endpoints
 
-After both the executor and consensus client are up and running, you can send requests to the executor layer JSSON-RPC and consensus client api.
+After both the executor and consensus client are up and running, you can send requests to the executor layer JSON-RPC and consensus client api.
 
-The endpoints avalable for the consensuss client are documented [here](https://lighthouse-book.sigmaprime.io/api-lighthouse.html)
+The endpoints avalable for the consensus client are documented [here](https://lighthouse-book.sigmaprime.io/api-lighthouse.html)
 
 While for the executor are located [here](https://docs.nethermind.io/interacting/json-rpc-ns/eth)
 
@@ -207,7 +207,8 @@ we are get a response:
 
 ![lighthouse health api response](/assets/img/posts/lighthouse_api_response.webp)
 
-> If lighthose client has not started fully you might get a network reset by peer error {: .prompt-info}
+> If lighthouse client has not started fully you might get a network reset by peer error 
+{: .prompt-info}
 
 For the Nethermind executor client we will run:
 
