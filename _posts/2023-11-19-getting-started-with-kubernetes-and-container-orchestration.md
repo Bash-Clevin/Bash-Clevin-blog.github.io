@@ -14,7 +14,7 @@ image:
 
 [image by Lucas Käldström!]()
 
-## what problems does kubernetees solve
+<!-- ## what problems does kubernetees solve
 microservice growth from monolith lead to kubernetes to manage increased usage of containers
 
 ### what's offered
@@ -149,4 +149,4 @@ Namespace benefits:
 resources that can be shared between namespaces:
  - services i.e db, nginx, 
  - volumes
- `kunectl api-resources --namespaced=false` # check resources that are not bound in namespace
+ `kunectl api-resources --namespaced=false` # check resources that are not bound in namespace -->
